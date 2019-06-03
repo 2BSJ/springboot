@@ -81,7 +81,7 @@
 				<artifactId>tomcat-maven-plugin</artifactId>
 				<configuration>
 					<url>http://127.0.0.1:8080/manager/text</url> <!-- 로컬에서 로컬이기때문에 이 주소가 가능 -->
-					<path>/springboot-mysite</path>
+					<path>/mysite5</path>
 					<username>admin</username>
 					<password>admin</password>
 				</configuration>
