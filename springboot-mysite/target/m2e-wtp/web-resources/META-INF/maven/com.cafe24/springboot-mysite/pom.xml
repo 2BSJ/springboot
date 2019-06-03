@@ -71,7 +71,7 @@
 			<plugin>
 				<artifactId>maven-war-plugin</artifactId> <!-- war로 만들거니까 -->
 				<configuration>
-					<warSourceDirectory>src/main/webapp</warSourceDirectory><!-- war가 webapp으로 
+					<warSourceDirectory>springboot-mysite/src/main/webapp</warSourceDirectory><!-- war가 webapp으로 
 						만들어지므로 절대경로 설정 -->
 				</configuration>
 			</plugin>
