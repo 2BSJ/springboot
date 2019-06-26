@@ -63,6 +63,11 @@ public class GuestbookController {
 		guestbookService.add(vo);
 		return "redirect:/guestbook/list";
 	}
+	@RequestMapping(value="/timeline")
+	public String timeline() {
+		//jsp 보내주고 나머지 처리는 jsp페이지에서 ajax api로 알아서 해야함
+		return "guestbook/index-timeline";
+	}
 
 
 }

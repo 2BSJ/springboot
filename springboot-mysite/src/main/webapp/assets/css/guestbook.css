@@ -1,29 +1,87 @@
 @CHARSET "UTF-8";
 @import "mysite.css";
 
-#guestbook			{ margin:20px auto;	width:540px; }
+
+#guestbook         { margin:20px auto;   width:540px; }
 
 #guestbook form, 
-#guestbook table	{ width:100% }
+#guestbook table   { width:100% }
 
-#guestbook table,	
+#guestbook table,   
 #guestbook table td { border:1px solid #333 }
 #guestbook table td { padding:5px }
 
-#guestbook ul		{ width:100%; margin-top:20px }
-#guestbook ul li	{ width:100%; margin-top:10px }
+#guestbook ul      { width:100%; margin-top:20px }
+#guestbook ul li   { width:100%; margin-top:10px }
 
+#guestbook #guestbookimg { width:40px; height:40px; float:left; }
 
-#guestbook.delete-form	{ height:200px }
-#guestbook.delete-form form {
-	width:300px;
-	padding:10px;
-	border:1px solid #666;
-	border-radius: 10px;
-	margin:50px auto;
+#guestbook h1{
+   float:left;
+   margin-top:3px;
+   margin-bottom:15px;
 }
-#guestbook.delete-form a	{ display:block; margin:20px auto; width:110px }
 
-#guestbook.delete-message p	{ padding:100px; height:50px; text-align:center }
+#guestbook #input-name,#guestbook #input-password,
+#guestbook #tx-content, #guestbook #submit-btn
+{
+   width:550px; 
+   margin-bottom:10px;
+   padding:2px;
+}
 
-#guestbook textarea#content	{ width: 100%; border:none; height: 100px; resize: none; outline: none; }
+
+#guestbook #tx-content{
+   height:150px;
+   padding:2px;
+}
+
+#guestbook #submit-btn{
+   width: 558px;
+   background-color: #9BCDF4; /* Green */
+   border: none;
+   color: white;
+   padding: 10px 24px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   font-weight:bold;
+   border-radius: 7px;
+}
+
+#guestbook #add-form{margin-bottom:7px }
+
+#guestbook.delete-form   { height:200px }
+
+#guestbook.delete-form form {
+   width:300px;
+   padding:10px;
+   border:1px solid #666;
+   border-radius: 10px;
+   margin:50px auto;
+}
+
+#guestbook #wrap{
+   position: relative;
+   
+}
+
+#guestbook #wrap .title, #guestbook #wrap .content,
+#guestbook #wrap .profile, #guestbook #wrap .btn-delete
+{
+   position:absolute;
+}
+
+#guestbook #wrap .title{
+   
+}
+
+
+
+#guestbook.delete-form a   { display:block; margin:20px auto; width:110px }
+
+#guestbook.delete-message p   { padding:100px; height:50px; text-align:center }
+
+#guestbook textarea#content   { width: 100%; border:none; height: 100px; resize: none; outline: none; }
+

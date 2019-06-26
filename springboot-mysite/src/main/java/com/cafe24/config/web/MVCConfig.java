@@ -28,7 +28,7 @@ public class MVCConfig extends WebMvcConfigurerAdapter {
 	// View Resolver
 	//
 	
-	@Bean
+	@Bean 
 	public ViewResolver viewResolver() { // 뷰 리졸버 설정
 	 InternalResourceViewResolver resolver = new InternalResourceViewResolver();
 	 resolver.setPrefix("/WEB-INF/views/");

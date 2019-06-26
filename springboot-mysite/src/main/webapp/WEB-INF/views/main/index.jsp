@@ -15,8 +15,9 @@
 		<div id="wrapper">
 			<div id="content">
 				<div id="site-introduction">
-					<img id="profile" src="${pageContext.servletContext.contextPath }/images/profile/lion.png">
-					<h2>안녕하세요. 양승준의  스프링페이지에 오신 것을 환영합니다.</h2>
+				
+					<img id="profile" src="${pageContext.request.contextPath}/assets/images/lion.png">
+					<h2>안녕하세요. 양승준의  스프링부트페이지에 오신 것을 환영합니다.</h2>
 					<p>
 						이 사이트는  웹 프로그램밍 실습과제 예제 사이트입니다.<br>
 
